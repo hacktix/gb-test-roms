@@ -1,0 +1,33 @@
+[submodule "rgbds"]
+	path = rgbds
+	url = https://github.com/hacktix/rgbds
+[submodule "rgbds-4"]
+	path = rgbds-4
+	url = https://github.com/hacktix/rgbds
+[submodule "wla-dx"]
+	path = wla-dx
+	url = https://github.com/hacktix/wla-dx
+[submodule "dmg-acid2"]
+	path = dmg-acid2
+	url = https://github.com/hacktix/dmg-acid2
+[submodule "cgb-acid2"]
+	path = cgb-acid2
+	url = https://github.com/hacktix/cgb-acid2
+[submodule "blargg-gb-roms"]
+	path = blargg-gb-roms
+	url = https://github.com/hacktix/blargg-gb-roms
+[submodule "mealybug-gb-tests"]
+	path = mealybug-gb-tests
+	url = https://github.com/hacktix/mealybug-gb-tests
+[submodule "mooneye-gb-tests"]
+	path = mooneye-gb-tests
+	url = https://github.com/hacktix/mooneye-gb-tests
+[submodule "samesuite-gb-tests"]
+	path = samesuite-gb-tests
+	url = https://github.com/hacktix/samesuite-gb-tests
+[submodule "wilbertpol-gb-tests"]
+	path = wilbertpol-gb-tests
+	url = https://github.com/hacktix/wilbertpol-gb-tests
+[submodule "singlestep-sm83-tests"]
+	path = singlestep-sm83-tests
+	url = https://github.com/hacktix/singlestep-sm83-tests
