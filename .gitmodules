@@ -31,3 +31,9 @@
 [submodule "singlestep-sm83-tests"]
 	path = singlestep-sm83-tests
 	url = https://github.com/hacktix/singlestep-sm83-tests
+[submodule "bootix"]
+	path = bootix
+	url = https://github.com/hacktix/bootix
+[submodule "gb-bootroms"]
+	path = gb-bootroms
+	url = https://github.com/hacktix/gb-bootroms

@@ -38,6 +38,9 @@ cd /src/cgb-acid2 && make && cd build && find . -name '*.gbc' -exec rsync -R {} 
 mkdir -p /src/out/mealybug &&\
 cd /src/mealybug-gb-tests && make && cd build && find . -name '*.gb' -exec rsync -R {} /src/out/mealybug \; >/dev/null &&\
 
+mkdir -p /src/out/bootroms &&\
+cd /src/bootix && make all && find . -name '*.bin' -exec rsync -R {} /src/out/bootroms \; >/dev/null &&\
+
 cd /src/rgbds && make install &&\
 
 mkdir -p /src/out/samesuite &&\
@@ -50,6 +53,9 @@ cd /src/mooneye-gb-tests && make && cd build && find . -name '*.gb' -exec rsync 
 
 mkdir -p /src/out/wilbertpol &&\
 cd /src/wilbertpol-gb-tests/tests && make && cd build && find . -name '*.gb' -exec rsync -R {} /src/out/wilbertpol \; >/dev/null &&\
+
+mkdir -p /src/out/bootroms &&\
+cd /src/gb-bootroms && make && cd bin && find . -name '*.bin' -exec rsync -R {} /src/out/bootroms \; >/dev/null &&\
 
 echo done \
 "
